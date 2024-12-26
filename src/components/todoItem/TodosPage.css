@@ -1,0 +1,93 @@
+body {
+    font-family: "JetBrains Mono", monospace;
+    background-color: #2b2b2b;
+    color: #dcdcdc;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h2 {
+    color: #ffc66d;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    background-color: #3c3f41;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    color: #dcdcdc;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+input[type="text"]:focus {
+    outline: 2px solid #ffc66d;
+}
+
+button {
+    background-color: #ffc66d;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    color: #2b2b2b;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffac41;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #3c3f41;
+    border: 1px solid #555555;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #dcdcdc;
+}
+
+li .active {
+    text-decoration: line-through;
+    color: #888888;
+}
+
+li input[type="checkbox"] {
+    transform: scale(1.2);
+    margin-right: 10px;
+}
+
+li button {
+    background-color: #ff4d4f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+li button:hover {
+    background-color: #ff7875;
+}
